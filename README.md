@@ -17,7 +17,7 @@ This Digital Twin bypasses standard statistical averaging by separating heat and
 
 ## 📈 Model Training Convergence
 
-![Dual-Stream Foundation Model Training Convergence](loss_curve_ppt.jpg)
+![Dual-Stream Foundation Model Training Convergence](loss_curve_ppt.png)
 
 *The training curve (100 epochs) demonstrates stable convergence of the `DualStream_AttnUConvLSTM` architecture. Early validation volatility (red dashed line) is standard due to the highly sparse nature of localized precipitation anomalies. However, guided by the custom `PerfectClimateLoss` (Huber + SSIM), the validation loss successfully stabilizes and converges tightly alongside the training loss post-epoch 80, proving the model successfully generalizes without falling into a dry-bias trap.*
 

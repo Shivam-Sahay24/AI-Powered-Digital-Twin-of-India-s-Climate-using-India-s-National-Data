@@ -16,10 +16,6 @@ This Digital Twin bypasses standard statistical averaging by separating heat and
 
 *Visual representation of the decoupled input tensors for the Western Ghats pilot region. The pipeline successfully applies a strict land-ocean binary mask (eliminating marine noise) and prepares the distinct hydrological and thermodynamic spatial arrays for the dual-stream encoders.*
 
-## 🧠 Machine Learning Architecture
-* **Competitors:** Standard Spatiotemporal CNNs vs. `DualStream_AttnUConvLSTM`
-* **Winner:** The Dual-Stream network successfully preserves thermodynamic and hydrological physical laws, merging them via a Multi-Head Cross-Attention Bridge before temporal propagation.
-* **Optimization:** Optimized using `Optuna` Bayesian tuning and guided by a custom `PerfectClimateLoss` function, which applies a 10x penalty weight on active storm pixels to forcefully prevent dry-bias overfitting.
 
 ## 🧠 Machine Learning Architecture
 * **Competitors:** Standard Spatiotemporal CNNs vs. `DualStream_AttnUConvLSTM`

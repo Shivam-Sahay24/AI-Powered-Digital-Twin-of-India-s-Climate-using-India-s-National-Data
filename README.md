@@ -12,7 +12,7 @@ This Digital Twin bypasses standard statistical averaging by separating heat and
 
   ## 🌍 Spatiotemporal Data Ingestion (Western Ghats)
 
-![Western Ghats Data Plot](assets/data_visualization.png)
+![Western Ghats Data Plot](assets/data visualization.png)
 
 *Visual representation of the decoupled input tensors for the Western Ghats pilot region. The pipeline successfully applies a strict land-ocean binary mask (eliminating marine noise) and prepares the distinct hydrological and thermodynamic spatial arrays for the dual-stream encoders.*
 
